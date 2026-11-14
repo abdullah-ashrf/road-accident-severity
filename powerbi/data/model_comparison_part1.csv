@@ -1,0 +1,5 @@
+Stage,Model,Accuracy,Balanced_Accuracy,Recall_Fatal,Recall_Serious
+"Part 1 (London, 3 classes)",Baseline (always Slight),0.8825566161332584,0.3333333333333333,0.0,0.0
+"Part 1 (London, 3 classes)","Logistic Regression (original, unweighted)",0.8825722128641836,0.33338014981273406,0.0,0.0001404494382022472
+"Part 1 (London, 3 classes)",Logistic Regression (balanced),0.5104498097198827,0.45727279447930513,0.5390243902439025,0.2955056179775281
+"Part 1 (London, 3 classes)",Gradient Boosting (balanced),0.5674246677896313,0.4627477524943533,0.43414634146341463,0.3595505617977528

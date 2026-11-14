@@ -1,0 +1,119 @@
+{
+  "rows_used": 320580,
+  "test_rows": 64116,
+  "class_share": {
+    "Slight": 0.8826,
+    "Serious": 0.111,
+    "Fatal": 0.0064
+  },
+  "results": [
+    {
+      "model": "Baseline (always Slight)",
+      "accuracy": 0.8825566161332584,
+      "balanced_accuracy": 0.3333333333333333,
+      "macro_f1": 0.3125383175092376,
+      "roc_auc_macro_ovr": 0.5,
+      "recall_fatal": 0.0,
+      "recall_serious": 0.0,
+      "recall_slight": 1.0,
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          410
+        ],
+        [
+          0,
+          0,
+          7120
+        ],
+        [
+          0,
+          0,
+          56586
+        ]
+      ]
+    },
+    {
+      "model": "Logistic Regression (original, unweighted)",
+      "accuracy": 0.8825722128641836,
+      "balanced_accuracy": 0.33338014981273406,
+      "macro_f1": 0.3126345266789918,
+      "roc_auc_macro_ovr": 0.6559041636769123,
+      "recall_fatal": 0.0,
+      "recall_serious": 0.0001404494382022472,
+      "recall_slight": 1.0,
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          410
+        ],
+        [
+          0,
+          1,
+          7119
+        ],
+        [
+          0,
+          0,
+          56586
+        ]
+      ]
+    },
+    {
+      "model": "Logistic Regression (balanced)",
+      "accuracy": 0.5104498097198827,
+      "balanced_accuracy": 0.45727279447930513,
+      "macro_f1": 0.2973492717346915,
+      "roc_auc_macro_ovr": 0.6202520782294204,
+      "recall_fatal": 0.5390243902439025,
+      "recall_serious": 0.2955056179775281,
+      "recall_slight": 0.5372883752164846,
+      "confusion_matrix": [
+        [
+          221,
+          94,
+          95
+        ],
+        [
+          2278,
+          2104,
+          2738
+        ],
+        [
+          13044,
+          13139,
+          30403
+        ]
+      ]
+    },
+    {
+      "model": "Gradient Boosting (balanced)",
+      "accuracy": 0.5674246677896313,
+      "balanced_accuracy": 0.4627477524943533,
+      "macro_f1": 0.3230122901112558,
+      "roc_auc_macro_ovr": 0.6456195229910109,
+      "recall_fatal": 0.43414634146341463,
+      "recall_serious": 0.3595505617977528,
+      "recall_slight": 0.5945463542218924,
+      "confusion_matrix": [
+        [
+          178,
+          119,
+          113
+        ],
+        [
+          1711,
+          2560,
+          2849
+        ],
+        [
+          8977,
+          13966,
+          33643
+        ]
+      ]
+    }
+  ]
+}

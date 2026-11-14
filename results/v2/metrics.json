@@ -1,0 +1,52 @@
+{
+  "with_vehicle_features": false,
+  "features": [
+    "1st_Road_Class",
+    "Carriageway_Hazards",
+    "Day_of_Week",
+    "Junction_Control",
+    "Junction_Detail",
+    "Light_Conditions",
+    "Pedestrian_Crossing-Human_Control",
+    "Pedestrian_Crossing-Physical_Facilities",
+    "Road_Surface_Conditions",
+    "Road_Type",
+    "Special_Conditions_at_Site",
+    "Urban_or_Rural_Area",
+    "Weather_Conditions",
+    "Police_Force",
+    "Speed_limit",
+    "Number_of_Vehicles",
+    "Hour",
+    "Month",
+    "Latitude",
+    "Longitude"
+  ],
+  "trees": 417,
+  "results": [
+    {
+      "set": "validation_2015",
+      "rows": 140044,
+      "ksi_rate": 0.1545799891462683,
+      "roc_auc": 0.665831625921123,
+      "pr_auc": 0.26737775944322745,
+      "threshold": 0.5374079174233862,
+      "recall": 0.5236049519586105,
+      "precision": 0.2535340431242731,
+      "f1": 0.3416420519621436,
+      "lift_top10": 2.1143434654822517
+    },
+    {
+      "set": "test_2016_2017",
+      "rows": 266535,
+      "ksi_rate": 0.1786519594049562,
+      "roc_auc": 0.6476103807566367,
+      "pr_auc": 0.28402753712145934,
+      "threshold": 0.5374079174233862,
+      "recall": 0.4889640254530945,
+      "precision": 0.27442129083965866,
+      "f1": 0.3515449830516152,
+      "lift_top10": 1.9291791431247203
+    }
+  ]
+}
