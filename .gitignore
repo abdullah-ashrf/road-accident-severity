@@ -2,3 +2,8 @@
 *.log
 __pycache__/
 .ipynb_checkpoints/
+
+# Secrets: keep API keys and passwords in .env, never in code
+.env
+.env.*
+!.env.example
