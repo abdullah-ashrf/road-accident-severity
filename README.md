@@ -99,8 +99,8 @@ streamlit run app.py
 
 ## Also in the original project
 
-- **Power BI dashboard:** multi-page, 15+ visuals, borough-level drill-down. A 2026 refresh is in progress: the data tables are ready in [powerbi/data](powerbi/data), with a [build guide](powerbi/BUILD_GUIDE.md).
-- **ARIMA forecast in R:** accident trends projected to 2027, MAPE 0.92%.
+- **Power BI dashboard:** the 2024 original was multi-page with 15+ visuals and borough-level drill-down. The 2026 version is [powerbi/Road_Accident_Dashboard.pbix](powerbi/Road_Accident_Dashboard.pbix), built from the tables in [powerbi/data](powerbi/data) with this [build guide](powerbi/BUILD_GUIDE.md).
+- **ARIMA forecast in R:** the 2024 dissertation projected London accident counts to 2027 and reported a MAPE of 0.92%. In 2026 I found that the yearly counts had been passed to the model out of year order, and that the error was measured on the data the model was fitted to. With the years in order the same model's error is about 3.7%, and the falling trend it showed was not in the data. I don't rely on that forecast.
 
 ## Run it yourself
 
@@ -118,4 +118,4 @@ python src/explain_v2.py                                  # Feature importance
 Python · pandas · scikit-learn · matplotlib · Streamlit · Power BI · R (ARIMA)
 
 ---
-Abdullah Ashraf · Data Analyst (BI & AI Automation) · [LinkedIn](https://www.linkedin.com/in/abdullahashrf)
+Data Analyst (BI & AI Automation) · [LinkedIn](https://www.linkedin.com/in/abdullahashrf) · [Portfolio](https://abdullahashrf.vercel.app) · Related: [London Fly-Tipping](https://github.com/abdullah-ashrf/london-fly-tipping)
